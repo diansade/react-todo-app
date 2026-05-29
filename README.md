@@ -1,16 +1,85 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean Todo App built using **React, Vite, and Tailwind CSS** to manage daily tasks efficiently.
 
-Currently, two official plugins are available:
+This project was created while learning React through a **project-based approach**, focusing on core React concepts like state management, props, hooks, and component-based architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ✅ Add new tasks
+- ✅ Mark tasks as completed
+- ✅ Delete tasks
+- ✅ Persistent task storage using **localStorage**
+- ✅ Auto-focus input after adding a task
+- ✅ Clean and modern UI with **Tailwind CSS**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Concepts Practiced
+
+Through this project, I practiced:
+
+- React component structure
+- `useState()` for state management
+- `useEffect()` for side effects
+- `useRef()` for DOM manipulation
+- Controlled inputs
+- Props and component communication
+- Dynamic rendering using `map()`
+- Updating state immutably using:
+  - `map()`
+  - `filter()`
+  - spread operator (`...`)
+
+- Local storage persistence with `localStorage`
+
+## 📸 Preview
+
+![alt text](<Screenshot 2026-05-29 233834.png>)
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash id="d3k4pw"
+git clone <your-repository-url>
+```
+
+Move into the project folder:
+
+```bash id="r7m2qx"
+cd react-todo-app
+```
+
+Install dependencies:
+
+```bash id="g5v8pr"
+npm install
+```
+
+Start the development server:
+
+```bash id="u2x9mw"
+npm run dev
+```
+
+## 🌱 Future Improvements
+
+- Edit task functionality
+- Task filtering (Completed / Pending)
+- Responsive design improvements
+- Dark mode
+- Drag & drop task ordering
+
+## 📌 Learning Goal
+
+This project was built to strengthen my understanding of **React fundamentals through hands-on development instead of tutorial-based learning**.
+
+---
+
+Made with ❤️ while learning React
